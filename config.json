@@ -1,0 +1,23 @@
+{
+    "block_size": 64,
+    "mode": "GPT",
+    "embedding_dimension": 512,
+    "num_of_attention_head": 8,
+    "num_of_words_in_encoder": 0,
+    "hidden_units_dimension": 2048,
+    "encoder_layers": 6,
+    "decoder_layers": 12,
+    "dropout": 0.01,
+    "max_len": 5000,
+    "learning_rate": 1e-5,
+    "num_epochs": 10,
+    "batch_size": 64,
+    "num_workers": 4,
+    "data_path": {
+        "meta": "meta.pkl",
+        "train": "train.bin",
+        "val": "val.bin"
+    },
+    "save_model_path": "model.json",
+    "is_same_language": false
+}
